@@ -13,7 +13,25 @@ body {
 /* .right_nav {
   margin-left: -10%;
 } */
-@media screen and (max-width: 1146px) {
+.right_nav {
+  margin-left: 35%;
+}
+.right_nav button {
+  border-radius: 30px;
+  background: #00c9a8;
+  color: #f1f1f1;
+}
+.nav_item {
+  display: flex;
+}
+#form input {
+  margin-left: 70%;
+}
+#form button {
+  margin-left: 145%;
+  margin-top: -14%;
+}
+/* @media screen and (max-width: 1146px) {
   .front_view_text button {
     margin-top: -2%;
     font-size: 1rem;
@@ -45,12 +63,24 @@ body {
   .man_text p {
     font-size: 1.6rem !important;
   }
-}
+} */
 @media screen and (max-width: 600px) {
   .front_view_text {
     margin-left: -6%;
   }
-
+  #form input {
+    margin-left: 0;
+  }
+  #form button {
+    margin-left: 0;
+    margin-top: 0;
+  }
+  .right_nav {
+    margin-left: 0;
+  }
+  .nav_item {
+    display: block;
+  }
   .front_view_text h1 {
     font-size: 2.2rem !important;
   }
